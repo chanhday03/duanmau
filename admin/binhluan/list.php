@@ -27,7 +27,7 @@
                     <td>' . $idpro . '</td>
                     <td>' . $ngaybinhluan . '</td>
                     <td>
-                        <a href="' . $xoabl . '"><input type="button" value="Xóa"></a>
+                        <a href="' . $xoabl . '"><i class="fa-solid fa-trash"></i></a>
                     </td>
                     </tr>';
                 }
@@ -35,12 +35,21 @@
             </table>
         </div>
         <div class="row mb10">
-            <input type="button" value="Chọn tất cả">
+            <!-- <input type="button" value="Chọn tất cả">
             <input type="button" value="Bỏ chọn tất cả">
-            <input type=" button" value="Xóa các mục đã chọn">
+            <input type=" button" value="Xóa các mục đã chọn"> -->
         </div>
         </form>
     </div>
 </div>
 </div>
 </div>
+
+<body>
+    <style>
+    .fa-trash {
+        color: red;
+        font-size: 30px;
+    }
+    </style>
+</body>

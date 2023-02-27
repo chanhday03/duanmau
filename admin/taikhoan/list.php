@@ -31,8 +31,8 @@
                     <td>' . $tel . '</td>
                     <td>' . $role . '</td>
                     <td>
-                       <a href="'.$suatk.'"> <input type="button" value="Sửa"></a>
-                       <a href="'.$xoatk.'"><input type="button" value="Xóa"></a>
+                       <a href="'.$suatk.'"><i class="fa-solid fa-pen"></i></a>
+                       <a href="'.$xoatk.'"><i class="fa-solid fa-trash"></i></a>
                     </td>
                     </tr>';
                     }
@@ -40,11 +40,11 @@
             </table>
         </div>
         <div class="row mb10">
-            <input type="button" value="Chọn tất cả">
+            <!-- <input type="button" value="Chọn tất cả">
             <input type=" button" value="Bỏ chọn tất cả">
-            <input type="button" value="Xóa các mục đã chọn">
+            <input type="button" value="Xóa các mục đã chọn"> -->
             <a href="index.php?act=adddm">
-                <input type="button" value="Nhập thêm">
+                <input type="button" value="Nhập thêm" class="btn1">
             </a>
         </div>
         </form>
@@ -52,3 +52,18 @@
 </div>
 </div>
 </div>
+
+<body>
+    <style>
+    .fa-trash {
+        color: red;
+        font-size: 30px;
+    }
+
+    .fa-pen {
+        color: greenyellow;
+        font-size: 30px;
+        margin-right: 30px;
+    }
+    </style>
+</body>

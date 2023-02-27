@@ -11,10 +11,10 @@
                 <input type="text" name="tenloai">
             </div>
             <div class="row mb10">
-                <input type="submit" name="themmoi" value="Thêm Mới">
-                <input type="reset" value="Nhập Lại">
+                <input type="submit" name="themmoi" value="Thêm Mới" class="btn1">
+                <!-- <input type="reset" value="Nhập Lại"> -->
                 <a href=" index.php?act=listdm">
-                    <input type="button" value="Danh Sách">
+                    <input type="button" value="Danh Sách" class="btn1">
                 </a>
             </div>
             <?php

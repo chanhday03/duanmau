@@ -28,8 +28,7 @@ window.onload = async () => {
                     $i += 1;
                 }
                 ?>
-        ]);
-
+        ]); -
         console.log(data)
 
         // Optional; add a title and set the width and height of the chart

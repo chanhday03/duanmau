@@ -31,7 +31,7 @@
             </table>
         </div>
         <div class="row mb10">
-            <a href="index.php?act=bieudo"><input type="submit" value="Xem biểu đồ"></a>
+            <a href="index.php?act=bieudo"><input type="submit" value="Xem biểu đồ" class="btn1"></a>
         </div>
     </div>
 </div>

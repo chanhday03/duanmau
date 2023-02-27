@@ -291,6 +291,7 @@ input[type="submit"]:hover {
     transition: all 1s ease-in-out;
 }
 
+
 .boxsp:hover {
     box-shadow: 0 0 0 2px rgb(238, 174, 202);
     transform: rotate(8deg);
@@ -725,18 +726,16 @@ input[type="submit"]:hover {
                 <!-- <a class="active" href="#home">home</a> -->
                 <a href="index.php" class="active">Trang Chủ</a>
                 <a href="#home">Giới Thiệu</a>
-                <a href="#about">Nguồn gốc</a>
+                <a href="#about">Thông tin</a>
                 <a href="#review">Góp Ý</a>
-                <a href="#order">Hỏi Đáp</a>
-                <a href="index.php?act=thongke">Thống kê</a>
-
+                <a href="#order">Liên Hệ</a>
             </nav>
             <div class="icons">
                 <i class="fa-solid fa-bars" id="menu-bars"></i>
                 <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
                 <a href="#" class="fa-solid fa-heart"></a>
                 <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fa-solid fa-user"></a>
+                <a href="../admin/index.php" class="fa-solid fa-user"></a>
             </div>
         </header>
         <section class="home" id="home">
