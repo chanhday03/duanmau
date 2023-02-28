@@ -10,7 +10,7 @@
                     </div>
                     <div class="row mb10">
                         <input type="submit" value="Gửi" name="guiemail">
-                        <input type="reset" name="" value="Nhập lại">
+                        <input type="reset" name="" value="Nhập lại" class="btn1">
                     </div>
                 </form>
                 <h2 class="thongbao">

@@ -47,8 +47,7 @@
                         <td>'.$luotxem.'</td>
                         <td>
                             <a href="'.$suasp.'"><i class="fa-solid fa-pen"></i></a>    
-                            <a href="'.$xoasp.'"><i class="fa-solid fa-trash"></i></a>  
-                            
+                            <a href="'.$xoasp.'"><i class="fa-solid fa-trash"></i></a>               
                         </td>
                     </tr>';
                     }
@@ -61,7 +60,7 @@
             <input type="button" value="Bỏ chọn tất cả">
             <input type=" button" value="Xóa các mục đã chọn"> -->
             <a href="index.php?act=addsp">
-                <input type="button" value="Nhập thêm">
+                <input type="button" value="Nhập thêm" class="btn1">
             </a>
         </div>
         </form>

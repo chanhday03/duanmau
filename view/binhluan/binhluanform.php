@@ -1,6 +1,6 @@
 <?php
 session_start();
-$iduser = $_SESSION['user']['id'];
+// $iduser = $_SESSION['user']['id'];
 include "../../model/pdo.php";
 include "../../model/binhluan.php";
 $idpro = $_REQUEST['idpro'];
@@ -55,7 +55,7 @@ $dsbl = loadall_binhluan($idpro);
             <form action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
                 <input type="hidden" name="idpro" value="<?= $idpro ?>">
                 <input type="text" name="noidung">
-                <input type="submit" name="guibinhluan" value="Gửi bình luận">
+                <input type="submit" name="guibinhluan" value="Gửi bình luận" class="btn1">
             </form>
         </div>
         <?php

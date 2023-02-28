@@ -32,7 +32,7 @@
                         <td>' . $bill["ngaydathang"]. '</td>
                         <td>
                             <a href=""><input type="button" value="Sửa"></a>    
-                            <a href=""><input type="button" value="Xóa"></a>  
+                            <a href=" '.$xoabill.'"><i class="fa-solid fa-trash"></i></a>  
                         </td>
                     </tr>';
                 }
@@ -40,9 +40,9 @@
             </table>
         </div>
         <div class="row mb10">
-            <input type="button" value="Chọn tất cả">
+            <!-- <input type="button" value="Chọn tất cả">
             <input type="button" value="Bỏ chọn tất cả">
-            <input type=" button" value="Xóa các mục đã chọn">
+            <input type=" button" value="Xóa các mục đã chọn"> -->
             <a href="index.php?act=addsp">
                 <input type="button" value="Nhập thêm">
             </a>

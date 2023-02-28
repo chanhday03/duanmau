@@ -105,7 +105,7 @@ if (isset($_GET['act'])) {
             $listdanhmuc = loadall_danhmuc();
             include "sanpham/update.php";
             break;
-        // updatedm
+        // updatesp
         case 'updatesp':
             if (isset($_POST['capnhat'])) {
                 $id = $_POST['id'];
@@ -134,7 +134,15 @@ if (isset($_GET['act'])) {
             $listtaikhoan = loadall_taikhoan();
             include "taikhoan/list.php";
             break;
-
+        // xoatk
+        case 'xoatk':
+            if (isset($_GET['id']) && ($_GET['id'] > 0)) {
+                // var_dump($_GET['id']);
+                delete_sanpham($_GET['id']);
+            }
+            $listtaikhoan = loadall_taikhoan();
+            include "taikhoan/list.php";
+            break;
         // binhluan
         case 'dsbl':
             $listbinhluan = loadall_binhluan(0);

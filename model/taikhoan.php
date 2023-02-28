@@ -22,4 +22,9 @@ function loadall_taikhoan(){
     $listtaikhoan=pdo_query($sql);
     return $listtaikhoan;
 }
+function delete_taikhoan($id)
+{
+    $sql = "delete from taikhoan where id=" . $id;
+    pdo_execute($sql);
+}
 ?>
